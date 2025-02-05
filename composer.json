@@ -1,0 +1,19 @@
+{
+    "name": "ips/login-tracker",
+    "description": "A Laravel package to track user login and logout events.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ips\\LoginTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ayush Kumar",
+            "email": "ayushk.itpath@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/auth": "^10.48"
+    }
+}
