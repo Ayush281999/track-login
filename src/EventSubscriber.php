@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\LoginTracker;
+namespace Ips\LoginTracker;
 
 use Illuminate\Auth\Events\Login;
 use Illuminate\Auth\Events\Logout;

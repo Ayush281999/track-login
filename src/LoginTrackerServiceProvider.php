@@ -1,11 +1,11 @@
 <?php
 
-namespace YourVendor\LoginTracker;
+namespace Ips\LoginTracker;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Auth\Events\Login;
 use Illuminate\Auth\Events\Logout;
-use YourVendor\LoginTracker\EventSubscriber;
+use Ips\LoginTracker\EventSubscriber;
 
 class LoginTrackerServiceProvider extends ServiceProvider
 {
